@@ -1,6 +1,6 @@
 .intro-bg{
-  background-color: #000;
-  color: #fff;
+  background-color: var(--color-12);
+  color: var(--color-0);
   box-shadow: inset 0 -120px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .intro h1 span{
-  color: #ffbb00;
+  color: var(--color-p1);
 }
 
 .intro-content{
@@ -37,7 +37,7 @@
 
 .intro p{
   margin-bottom: 20px;
-  color: #b2b2b2;
+  color: var(--color-5);
 }
 
 @media (max-width: 1200px){
@@ -57,9 +57,9 @@
   }
 
   .intro-bg{
-    background: #111111;
+    background: var(--color-11);
     padding-top: 40px;
-    box-shadow: inset 0 -60px #ffffff;
+    box-shadow: inset 0 -60px var(--color-0);
   }
 
   .intro-content{
