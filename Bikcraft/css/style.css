@@ -1,7 +1,15 @@
+/* Global Settings */
 @import "./global/header.css";
+@import "./utilities/typography.css";
+@import "./utilities/color.css";
+
 @import "./global/global.css";
+
+/* Utilities */
+@import "./utilities/component.css";
+
+/* Home Page */
 @import "./home/intro.css";
-@import "./utilities/component.css"
 
 
 
