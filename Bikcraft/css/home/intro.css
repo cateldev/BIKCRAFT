@@ -16,10 +16,6 @@
   margin-right: auto;
 }
 
-.intro h1 span{
-  color: var(--color-p1);
-}
-
 .intro-content{
   align-self: end;
   padding-bottom: 200px;
@@ -40,16 +36,6 @@
   color: var(--color-5);
 }
 
-@media (max-width: 1200px){
-  .intro h1{
-    font-size: 48px;
-  }
-
-  .intro p{
-    font-size: 18px;
-  }
-}
-
 @media (max-width: 800px){
   .intro{
     grid-template-columns: 1fr;
@@ -67,7 +53,6 @@
   }
 
   .intro h1{
-    font-size: 32px;
     margin-bottom: 16px;
   }
 
