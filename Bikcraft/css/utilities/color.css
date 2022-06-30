@@ -6,3 +6,7 @@
   --color-12: #000000;
   --color-p1: #ffbb00;
 }
+
+.color-p1{
+  color: var(--color-p1);;
+}
