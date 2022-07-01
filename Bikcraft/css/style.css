@@ -11,6 +11,9 @@
 /* Home Page */
 @import "./home/intro.css";
 
+/* Bikes */
+@import "./bikes/bikeList.css";
+
 
 
 
