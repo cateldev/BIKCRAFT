@@ -52,3 +52,32 @@
   width: 24px;
   margin-bottom: 8px;
 }
+
+@media (max-width: 800px) {
+  .tech-bg {
+    box-shadow: initial;
+  }
+
+  .tech {
+    grid-template-columns: 1fr;
+  }
+
+  .tech-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .tech-image {
+    display: none;
+  }
+
+  .tech a {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .tech-features {
+    flex-direction: column;
+  }
+}
