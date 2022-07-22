@@ -10,9 +10,11 @@
 
 /* Home Page */
 @import "./home/intro.css";
+@import "./home/tech.css";
+@import "/css/home/partners.css";
+
 
 /* Bikes */
 @import "./bikes/bikeList.css";
 
-/* Techs */
-@import url("./home/tech.css");
+

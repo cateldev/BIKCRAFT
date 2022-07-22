@@ -29,6 +29,10 @@
   text-transform: uppercase;
 }
 
+span{
+  font-family: "Roboto";
+}
+
 .link::after {
   content: "";
   display: block;
