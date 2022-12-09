@@ -2,7 +2,7 @@
 @import "./global/header.css";
 @import "./utilities/typography.css";
 @import "./utilities/color.css";
-
+@import "./global/footer.css";
 @import "./global/global.css";
 
 /* Utilities */
@@ -15,6 +15,6 @@
 @import "./home/testimony.css";
 @import "/css/ensurance/ensurance.css";
 
-/* Bikes */ 
+/* Bikes */
 
 @import "./bikes/bikeList.css";
