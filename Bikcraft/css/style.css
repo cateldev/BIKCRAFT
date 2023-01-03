@@ -16,8 +16,8 @@
 @import "/css/ensurance/ensurance.css";
 
 /* Bikes */
-
 @import "./bikes/bikeList.css";
+@import "./bikes/bikes.css";
 
 /* Terms Page */
 @import "./terms/terms.css";
