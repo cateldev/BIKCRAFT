@@ -23,13 +23,32 @@
   background: linear-gradient(#ffb60d, #e59317);
 }
 
-.botao.secondary {
+.button.secondary {
   background: var(--color-10);
   color: var(--color-2);
 }
 
-.botao.secondary:hover {
+.button.secondary:hover {
   background: var(--color-9);
+}
+
+.button.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.button.arrow::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../../img/icones/seta.svg");
+  transition: transform 0.2s;
+}
+
+.button.arrow:hover:after {
+  transform: translateX(4px);
 }
 
 .link {
