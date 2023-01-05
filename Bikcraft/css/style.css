@@ -21,3 +21,6 @@
 
 /* Terms Page */
 @import "./terms/terms.css";
+
+/* Ensurance */
+@import "./ensurance/advantages.css";
