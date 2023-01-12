@@ -7,6 +7,10 @@
   padding-bottom: 60px;
 }
 
+#bike .title p {
+  text-transform: uppercase;
+}
+
 .bike-images {
   display: flex;
   flex-wrap: wrap;
@@ -90,4 +94,25 @@
 
 .bike-datasheet span {
   color: var(--color-6);
+}
+
+@media (max-width: 800px) {
+  .bike {
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .bike-images {
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .bike-infos {
+    grid-template-columns: 1fr;
+  }
+  .bike-buy {
+    grid-template-columns: 1fr;
+  }
 }
