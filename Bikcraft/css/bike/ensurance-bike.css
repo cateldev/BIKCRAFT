@@ -9,7 +9,7 @@
   gap: 40px;
 }
 
-.ensurance-imagem img {
+.ensurance-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -26,4 +26,19 @@
 
 .ensurance p {
   margin-bottom: 20px;
+}
+
+@media (max-width: 800px) {
+  .ensurance-bg {
+    box-shadow: inset 0 -60px var(--color-12);
+  }
+  .ensurance {
+    grid-template-columns: 1fr;
+  }
+
+  .ensurance-content {
+    grid-row: 1;
+    padding-top: 40px;
+    padding-bottom: 0px;
+  }
 }
