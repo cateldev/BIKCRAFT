@@ -18,6 +18,7 @@
 /* Bikes */
 @import "./bikes/bikeList.css";
 @import "./bikes/bikes.css";
+@import "./bike/bike.css";
 
 /* Terms Page */
 @import "./terms/terms.css";
