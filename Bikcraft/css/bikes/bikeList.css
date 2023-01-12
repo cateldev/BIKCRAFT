@@ -5,7 +5,6 @@
 
 .bike-list h2 {
   margin-bottom: 40px;
-
 }
 
 .bike-list ul {
@@ -16,6 +15,10 @@
   margin-left: auto;
   margin-right: auto;
   overflow-x: auto;
+}
+
+#bike .bikes-list ul {
+  padding: 0px 0px 20px 0px;
 }
 
 .bike-list li {
