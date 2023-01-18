@@ -1,0 +1,68 @@
+#contact {
+  background: var(--color-1);
+}
+
+.contact {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+}
+
+.contact-data,
+.contact-form {
+  padding: 60px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-data {
+  background: var(--color-12);
+  border-radius: 5px 0 0 5px;
+}
+
+.contact-form {
+  background: var(--color-0);
+  border-radius: 0 5px 5px 0;
+}
+
+.contact-data h2 {
+  margin-bottom: 60px;
+}
+
+.contact-adress {
+  margin-bottom: 32px;
+  padding-left: 28px;
+  background: url("../../img/icones/local.svg") no-repeat 0px 2px;
+}
+
+.contact-adress p {
+  margin-bottom: 8px;
+}
+
+.contact-way a {
+  display: block;
+  max-width: max-content;
+  margin-bottom: 8px;
+  padding-left: 28px;
+}
+
+.contact-way a:hover {
+  color: var(--color-0);
+}
+
+.contact-way a:first-child {
+  background: url("../../img/icones/email.svg") no-repeat 0px 2px;
+}
+
+.contact-way a:nth-child(2) {
+  margin-bottom: 32px;
+}
+
+.contact-way a:nth-child(3) {
+  background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+  margin-bottom: 60px;
+}
+
+.contact-net {
+  display: flex;
+  gap: 32px;
+  padding-left: 28px;
+}
