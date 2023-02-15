@@ -51,5 +51,6 @@ function galleryEvent(img) {
 }
 
 // Animation Plugin
-
-new SimpleAnime();
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
