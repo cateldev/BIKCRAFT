@@ -49,3 +49,7 @@ function imageSwap(event) {
 function galleryEvent(img) {
   img.addEventListener("click", imageSwap);
 }
+
+// Animation Plugin
+
+new SimpleAnime();
